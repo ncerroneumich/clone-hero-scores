@@ -9,7 +9,7 @@ program = "D:\\Program Files\\Clone Hero\\Clone Hero.exe"
 file_path = "C:\\Users\\Nicko\\AppData\\LocalLow\\srylain Inc_\\Clone Hero\\scoredata.bin"
 
 # Set the repository URL
-repo_url = "https://github.com/username/repo.git"
+repo_url = "https://github.com/ncerroneumich/clone-hero-scores.git"
 
 # Set the local folder
 local_folder = "D:\\Program Files\\Clone Hero\\Scores Repo"
