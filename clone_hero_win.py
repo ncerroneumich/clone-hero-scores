@@ -6,7 +6,7 @@ import time
 program = "D:\\Program Files\\Clone Hero 2\\Clone Hero.exe"
 
 # Set the file path
-file_path = "C:\\Users\\Nicko\\AppData\\LocalLow\\srylain Inc_\\Clone Hero\\scoredata.bin"
+file_path = "D:\\Program Files\\Clone Hero 2\\GameData\\scoredata.bin"
 
 # Set the repository URL
 repo_url = "https://github.com/ncerroneumich/clone-hero-scores.git"
