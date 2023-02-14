@@ -12,7 +12,7 @@ file_path = "D:\\Program Files\\Clone Hero 2\\GameData\\scoredata.bin"
 repo_url = "https://github.com/ncerroneumich/clone-hero-scores.git"
 
 # Set the local folder
-local_folder = "D:\\Program Files\\Clone Hero 2\\clone-hero-scores"
+local_folder = "D:\\Program Files\\Clone Hero 2\\clone-hero-scores\\"
 
 # Pull the latest version of the repository
 os.chdir(local_folder)
