@@ -5,9 +5,6 @@ import time
 # Set the program path
 program = "D:\\Program Files\\Clone Hero 2\\Clone Hero.exe"
 
-# Set the file path
-file_path = "D:\\Program Files\\Clone Hero 2\\GameData\\scoredata.bin"
-
 # Set the repository URL
 repo_url = "https://github.com/ncerroneumich/clone-hero-scores.git"
 
@@ -27,6 +24,8 @@ while p.poll() is None:
     time.sleep(1)
 
 # Copy the file from the source folder to the local folder
+
+file_path = "D:\\Program Files\\Clone Hero 2\\GameData\\scoredata.bin"
 copy_command = "copy " + file_path + " " + local_folder
 subprocess.run(copy_command, shell=True)
 
