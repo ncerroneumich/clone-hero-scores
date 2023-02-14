@@ -23,6 +23,14 @@ p = subprocess.Popen(program)
 while p.poll() is None:
     time.sleep(1)
 
+# Check if the file exists
+filename = "D:\\Program Files\\Clone Hero 2\\GameData\\scoredata.bin"
+
+if os.path.exists(filename):
+    print("The file exists.")
+else:
+    print("The file does not exist.")
+
 # Copy the file from the source folder to the local folder
 file_path = "D:\\Program Files\\Clone Hero 2\\GameData\\scoredata.bin"
 copy_command = "copy " + file_path + " " + local_folder
