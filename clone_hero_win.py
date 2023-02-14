@@ -1,5 +1,6 @@
 import subprocess
 import os
+import shutil
 import time
 
 # Set the program path
@@ -33,8 +34,7 @@ else:
 
 # Copy the file from the source folder to the local folder
 file_path = "D:\\Program Files\\Clone Hero 2\\GameData\\scoredata.bin"
-copy_command = "copy " + file_path + " " + local_folder
-subprocess.run(copy_command, shell=True)
+shutil.copy2(file_path, local_folder)
 
 # Push the file to the repository
 os.chdir(local_folder)
