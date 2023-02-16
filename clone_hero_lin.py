@@ -46,5 +46,10 @@ commit_message = "Update scores from windows at " + current_time
 # Commit and push the changes
 commit_command = "git commit -m \"" + commit_message + "\""
 subprocess.run(commit_command, shell=True)
-push_command = "git push -f " + repo_url
-subprocess.run(push_command, shell=True)
+
+# Replace with your Git credentials and repository URL
+username = 'ncerrone'
+password = '$Cin//Cout$2219'
+
+# Execute the git push command with credentials
+subprocess.run(['git', 'push', repo_url, f'{username}:{password}'])
