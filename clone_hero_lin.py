@@ -52,4 +52,4 @@ username = 'ncerrone'
 password = '$Cin//Cout$2219'
 
 # Execute the git push command with credentials
-subprocess.run(['git', 'push', repo_url, f'{username}:{password}'])
+subprocess.run(['git', 'push -f', repo_url, f'{username}:{password}'])
